@@ -1,0 +1,37 @@
+html, body {
+    overflow: hidden;
+    margin: 0px;
+    height: 100%;
+    font-size: 95%;
+}
+
+.batman-container {
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    text-align: center;
+}
+
+#batman,
+#batman-shadow {
+    height: 90vh;
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    /*background-image: url("../../assets/img/flashlight.jpeg");*/
+    background-size: 40%;
+    background-repeat: no-repeat;
+    cursor: none;
+}
+
+.black #batman {
+    display: none;
+}
+
+.white #batman-shadow {
+    display: none;
+}
